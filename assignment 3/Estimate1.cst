@@ -1,0 +1,208 @@
+998 Type:           SystemStar estimate
+0   Written:        10-11-22 17:48:29
+900 File Version:   9003
+901 SW Version:     Demo
+902 Build:          3.0.3.1003
+904 Sequence Number:00249124760506441425282111055
+905 Version:        SystemStar 3.0 Demo
+906 Serial Number:  83 - 01126                              
+estcreate "Estimate1"
+dbselect "COCOMO_II.2000_Waterfall"
+calcmodel intermediate
+prec 5
+flex 2
+resl 5
+team 5
+pmat 4
+wsname  0 "Developer 1"
+wsname  1 "Developer 2"
+wsname  2 "Developer 3"
+wsname  3 "Developer 4"
+wsname  4 "Tester"
+wsname  5 "Manager"
+wsname  6 ""
+wsname  7 ""
+wsname  8 ""
+wsname  9 ""
+wsname 10 ""
+wsname 11 ""
+wscost  0  0   5000
+wscost  0  1      0
+wscost  0  2      0
+wscost  0  3      0
+wscost  0  4      0
+wscost  0  5      0
+wscost  0  6      0
+wscost  0  7      0
+wscost  0  8      0
+wscost  0  9      0
+wscost  1  0   5000
+wscost  1  1      0
+wscost  1  2      0
+wscost  1  3      0
+wscost  1  4      0
+wscost  1  5      0
+wscost  1  6      0
+wscost  1  7      0
+wscost  1  8      0
+wscost  1  9      0
+wscost  2  0   5000
+wscost  2  1      0
+wscost  2  2      0
+wscost  2  3      0
+wscost  2  4      0
+wscost  2  5      0
+wscost  2  6      0
+wscost  2  7      0
+wscost  2  8      0
+wscost  2  9      0
+wscost  3  0   5000
+wscost  3  1      0
+wscost  3  2      0
+wscost  3  3      0
+wscost  3  4      0
+wscost  3  5      0
+wscost  3  6      0
+wscost  3  7      0
+wscost  3  8      0
+wscost  3  9      0
+wscost  4  0   5000
+wscost  4  1      0
+wscost  4  2      0
+wscost  4  3      0
+wscost  4  4      0
+wscost  4  5      0
+wscost  4  6      0
+wscost  4  7      0
+wscost  4  8      0
+wscost  4  9      0
+wscost  5  0  10000
+wscost  5  1      0
+wscost  5  2      0
+wscost  5  3      0
+wscost  5  4      0
+wscost  5  5      0
+wscost  5  6      0
+wscost  5  7      0
+wscost  5  8      0
+wscost  5  9      0
+wscost  6  0      0
+wscost  6  1      0
+wscost  6  2      0
+wscost  6  3      0
+wscost  6  4      0
+wscost  6  5      0
+wscost  6  6      0
+wscost  6  7      0
+wscost  6  8      0
+wscost  6  9      0
+wscost  7  0      0
+wscost  7  1      0
+wscost  7  2      0
+wscost  7  3      0
+wscost  7  4      0
+wscost  7  5      0
+wscost  7  6      0
+wscost  7  7      0
+wscost  7  8      0
+wscost  7  9      0
+wscost  8  0      0
+wscost  8  1      0
+wscost  8  2      0
+wscost  8  3      0
+wscost  8  4      0
+wscost  8  5      0
+wscost  8  6      0
+wscost  8  7      0
+wscost  8  8      0
+wscost  8  9      0
+wscost  9  0      0
+wscost  9  1      0
+wscost  9  2      0
+wscost  9  3      0
+wscost  9  4      0
+wscost  9  5      0
+wscost  9  6      0
+wscost  9  7      0
+wscost  9  8      0
+wscost  9  9      0
+wscost 10  0      0
+wscost 10  1      0
+wscost 10  2      0
+wscost 10  3      0
+wscost 10  4      0
+wscost 10  5      0
+wscost 10  6      0
+wscost 10  7      0
+wscost 10  8      0
+wscost 10  9      0
+wscost 11  0      0
+wscost 11  1      0
+wscost 11  2      0
+wscost 11  3      0
+wscost 11  4      0
+wscost 11  5      0
+wscost 11  6      0
+wscost 11  7      0
+wscost 11  8      0
+wscost 11  9      0
+sced      low
+amcf *
+wsstartpoint 2
+rename "Component1"
+ACAP     high
+AEXP  very hi
+DATA     high
+PCAP     high
+TOOL     high
+CD00     high
+CD01     high
+CD02  very hi
+CD03  very hi
+CD04      low
+wsslocdist y  0 1        5000
+RQCOST   5760
+PDCOST   2400
+DDCOST   3000
+CTCOST  28480
+ITCOST   3120
+MNCOST      0
+increment 1
+set auto on
+910 Lines:                      177
+911 Characters:                3202
+912 File Size:                 3766
+913 Checksum 1:                  95
+914 Checksum 2:                 167
+915 Checksum 3: 0462263847964109055
+1000 "Estimate1"
+1001 "    "
+1002 152
+1003   85
+1004   1.1400
+1006       5.3921
+1007       5.3921
+1008   0.3120
+1009       4.9864
+1010       4.9864
+1011         5000
+1012         5000
+1013    1.0192
+1014    0.3018
+1015 2
+1016 5
+1017 2
+1018 5
+1019 5
+1020 4
+1021    0
+1022    2.9400
+1023   0.91000
+1024   1.00000
+1025    3.6700
+1026   0.28000
+1027   0.20000
+1028   0.10920
+1029   0.00000
+1030 s
+1031 ""
